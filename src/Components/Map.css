@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .app {
+    height: 600px;
+    width: 800px;
+  }
+  .map {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .marker-ambulance {
+    background-image: url('../Assets/ambulance.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+
+  .marker-police {
+    background-image: url('../Assets/police.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+
+  .marker-pompier {
+    background-image: url('../Assets/pompier.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+  .marker-delivery {
+    background-image: url('../Assets/sirene.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
